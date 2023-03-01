@@ -25,6 +25,6 @@ git config --global user.name "nome-usuario-GitHub"
 4-Colocar mensagem no commit 
 5-Clicar na setinha do botão commit (azul)
 6-Clicar em Commit & push
-7-Na primeira vez dar as autorizacoes - na seguna não sera mais necessário
+7-Na primeira vez dar as autorizacoes - na segunda não sera mais necessário
 8-Ver no GitHub se foi atualizado
 -----------------FIM------------------------------------------------------
