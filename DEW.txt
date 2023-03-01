@@ -1,2 +1,30 @@
-DEW arquivo de teste
-segundo paragrafo
+DEW aula de hoje -
+passos do github
+1-Entrar no github com emai e senha
+2-Entrar no VScode
+3-Fechar pasta (se estiver aberta) -File-->Close Folder
+4-Ir no botão do Source-control
+5-Botão clone-repository
+6-Copiar URL o repositorio mo GitHub e colar no VScode teclar "enter"
+7-Clonar o diretrio em c:/xampp/htdocs e clicar em Open
+8-Tela azul se confia em author clicar em sim
+------------Fim da clonagem do repositorio do GitHub-----------------
+
+------------Configurar Terminal--------------------------------------
+1-Ir no menu-->New terminal
+2-digitar os comandos:
+git config --global user.email "email-do-GitHub"
+git config --global user.name "nome-usuario-GitHub"
+3-Fechar Terminal
+-----------Fim do configuramento do termnal-------------------------
+
+----------Enviano mudanças para GitHub
+1-Salvar as mudanças "ctrl+s"
+2-Ir no source-contro
+3-em Changes clicar "+"
+4-Colocar mensagem no commit 
+5-Clicar na setinha do botão commit (azul)
+6-Clicar em Commit & push
+7-Na primeira vez dar as autorizacoes - na seguna não sera mais necessário
+8-Ver no GitHub se foi atualizado
+-----------------FIM------------------------------------------------------
