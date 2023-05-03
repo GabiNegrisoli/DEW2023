@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulários</h1><!--Crinado formularios-->
+    <form action="formulario.php" method="POST">
+        <div>
+            <label for="nome_usuario">Nome:</label><!--Label insere rotulo-->
+            <!-- "for" Direciona aonde devemos escrever-->
+            <!--input text é um campo de entrada de texto-->
+            <input type="texte" name="nome_usuario" id="nome_usuario"
+            size="50" maxlength="10" minlength="3" placeholder="Digite seu nome">
+        </div>
+        <br>
+        <div>
+            <label for="senha">senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+        </div>
+        <br>
+        <div>
+            <label for="">Hobbies</label>
+            <br>
+            <input type="checkbox" name="esporte" id="esporte">
+            <label for="esporte">Esportes</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="cinema">cinema</label>
+            <input type="checkbox" name="leitura" id="leitura">
+            <label for="leitura">Leitura</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Escolha o Tipo</label>
+            <br>
+            <input type="radio" name="tipo" id="adulto" checked >
+            <label for="adulto">adulto</label>
+            <input type="radio" name="tipo" id="adolescente">
+            <label for="adolescenre">Adolescente</label>
+            <input type="radio" name="tipo" id="criança">
+            <label for="criança">Criança</label>
+        </div>
+        <br>
+        <div>
+            <label for="arquivo">Escolha um arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/png, image/jpeg">
+        </div>
+        <br>
+        <div>
+        <div>
+            <label for="">Escolha uma opção</label>
+            <select name="opc" id="opc">
+                <option value="tsi">TSI</option>
+                <option value="tme">TME</option>
+                <option value="inf">Informática</option>
+                <option value="adm">Administração</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
+        </div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+            <!------------Botões---------------
+            <button type="submit" value="enviar"
+            < button type="reset" value="apagar"-->
+        </div>
+
+    </form>
+</body>
+</html>
