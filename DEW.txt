@@ -1,6 +1,6 @@
 DEW aula de hoje -
 passos do github
-1-Entrar no github com emai e senha
+1-Entrar no github com email e senha
 2-Entrar no VScode
 3-Fechar pasta (se estiver aberta) -File-->Close Folder
 4-Ir no botão do Source-control
