@@ -1,0 +1,12 @@
+div {
+    background-color: CornflowerBlue;/*Altera cor de fundo*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*altera o tipo de fonte*/
+    font-size: 30px;/*altera o tamanho da fonte*/
+}
+div li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1,h2 {/*aplicando a regra CSS para mais de um seletor*/
+    font-size:50px;
+}
