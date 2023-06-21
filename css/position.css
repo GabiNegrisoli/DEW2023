@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}/*resetar configuração padrao de todos os elementos da página*/
+body{
+    background-color: black;
+    color: white;
+}
+#txt{
+    position:absolute;
+    right: 350px;
+    top:8px;
+    left:16px;
+    
+}
+#img{
+    position: absolute;
+    top:8px;
+    right:50px;
+    width:300px;
+    height:200px;
+  }
